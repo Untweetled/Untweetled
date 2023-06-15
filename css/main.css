@@ -721,22 +721,9 @@ body{
     }
     .intro--banner h1{
         font-size:50px;
-        left: 125px;
     }
     .intro--banner img{
-        max-width: 100%;
-        width: 180px;
-        height: 180px;
-        position: absolute;
-        bottom: 350px;
-        left: 130px;
-    }
-    .intro--banner button{
-        left: 150px;
-    }
-    .intro--options{
-        display: flex;
-        padding-left: 40px;
+        display: none;
     }
     .intro--banner h3{
         text-align: center;

@@ -578,7 +578,7 @@ body{
 }
 .intro--banner{
     position:relative;
-    height:475px
+    height:475px;
 }
 .intro--banner::before{
     content:"";
@@ -681,7 +681,8 @@ body{
         font-size:55px
     }
     .intro--banner img{
-        display: none;
+        height: 380px;
+
     }
     .intro--options>a{
         margin-right:30px
@@ -698,7 +699,7 @@ body{
         font-size:44px
     }
     .intro--banner img{
-        width:330px
+        width:380px
     }
     .intro--options{
         display:block
@@ -717,15 +718,32 @@ body{
         height:360px
     }
     .intro--banner h1{
-        font-size:55px
+        font-size:50px;
+        left: 125px;
     }
     .intro--banner img{
-        display:none
+        max-width: 100%;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        bottom: 350px;
+        right:150px;
+    }
+    .intro--banner button{
+        left: 150px;
+    }
+    .intro--options{
+        display: flex;
+        padding-left: 40px;
+    }
+    .intro--banner h3{
+        text-align: center;
     }
 }
 @media (max-width: 600px) and (max-height: 750px){
     .intro--banner{
-        height:auto
+        height:auto;
+        
     }
     .intro--banner::before,.intro--banner::after{
         display:none;
@@ -733,10 +751,10 @@ body{
     .intro--banner h1{
         margin-top:0;
     }
+    }
     .intro--options{
         display:none
     }
-}
 .work{
     position:relative;
     display:-webkit-box;

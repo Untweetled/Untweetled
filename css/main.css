@@ -696,13 +696,15 @@ body{
         height:305px
     }
     .intro--banner h1{
-        font-size:44px
+        font-size:44px;
     }
     .intro--banner img{
-        width:380px
+        width:300px;
+        height: 300px;
+        left: 200px;
     }
     .intro--options{
-        display:block
+        display:flex;
     }
     .intro--options>a{
         display:block;
@@ -727,7 +729,7 @@ body{
         height: 180px;
         position: absolute;
         bottom: 350px;
-        right:150px;
+        left: 130px;
     }
     .intro--banner button{
         left: 150px;
@@ -751,9 +753,6 @@ body{
     .intro--banner h1{
         margin-top:0;
     }
-    }
-    .intro--options{
-        display:none
     }
 .work{
     position:relative;
